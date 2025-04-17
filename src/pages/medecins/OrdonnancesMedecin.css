@@ -1,0 +1,79 @@
+/* Style global pour la page Ordonnances Medecin */
+.ordonnances-medecin {
+    max-width: 900px;
+    margin: auto;
+  }
+  
+  h2 {
+    text-align: center;
+    color: #4b4b4b;
+  }
+  
+  textarea {
+    font-size: 1rem;
+    resize: none;
+    border-radius: 8px;
+  }
+  
+  button {
+    width: 100%;
+    font-size: 1rem;
+    padding: 10px;
+  }
+  
+  button:hover {
+    background-color: #007bff;
+  }
+  
+  
+  @media (max-width: 768px) {
+    /* Pour les tablettes et mobiles */
+    .ordonnances-medecin {
+      padding: 10px;
+    }
+  
+    textarea {
+      font-size: 0.9rem;
+    }
+  
+    button {
+      padding: 12px;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    /* Pour les petits écrans mobiles */
+    .ordonnances-medecin {
+      padding: 5px;
+    }
+  
+    button {
+      font-size: 1.1rem;
+    }
+  
+    h2 {
+      font-size: 1.3rem;
+    }
+  }
+  
+  .btn-outline-secondary {
+    font-size: 1.1rem;
+    padding: 8px 15px;
+    color: #6c757d;
+    border-color: #6c757d;
+  }
+  
+  .btn-outline-secondary:hover {
+    background-color: #f8f9fa;
+  }
+  
+  textarea {
+    font-size: 1rem;
+    border: 1px solid #ccc;
+  }
+  
+  textarea:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  

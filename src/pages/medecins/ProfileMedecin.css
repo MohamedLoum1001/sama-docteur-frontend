@@ -1,0 +1,102 @@
+/* Style global pour la page de profil médecin */
+.profile-medecin {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Titre de la page */
+  .profile-medecin h2 {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: 600;
+  }
+  
+  /* Champ de formulaire */
+  .profile-medecin .mb-3 label {
+    font-weight: 600;
+    margin-bottom: 5px;
+  }
+  
+  /* Champs de saisie du formulaire */
+  .profile-medecin .form-control {
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ced4da;
+  }
+  
+  /* Bouton de mise à jour */
+  .profile-medecin .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    padding: 12px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  /* Style pour le bouton retour */
+  .profile-medecin .btn-outline-secondary {
+    background-color: #fff;
+    color: #007bff;
+    border: 1px solid #007bff;
+    font-size: 1rem;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    cursor: pointer;
+  }
+  
+  /* Responsivité pour tablettes et petits écrans */
+  @media (max-width: 768px) {
+    .profile-medecin {
+      padding: 15px;
+    }
+  
+    .profile-medecin h2 {
+      font-size: 1.8rem;
+    }
+  
+    .profile-medecin .form-control {
+      font-size: 0.9rem;
+    }
+  
+    .profile-medecin .btn-primary {
+      font-size: 1rem;
+    }
+  
+    .profile-medecin .btn-outline-secondary {
+      width: 100%;
+    }
+  }
+  
+  /* Responsivité pour téléphones */
+  @media (max-width: 576px) {
+    .profile-medecin {
+      padding: 10px;
+    }
+  
+    .profile-medecin h2 {
+      font-size: 1.6rem;
+    }
+  
+    .profile-medecin .form-control {
+      font-size: 0.85rem;
+    }
+  
+    .profile-medecin .btn-primary {
+      font-size: 1rem;
+    }
+  
+    .profile-medecin .btn-outline-secondary {
+      width: 100%;
+      font-size: 1rem;
+    }
+  }
+  

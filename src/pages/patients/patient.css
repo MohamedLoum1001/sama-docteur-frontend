@@ -1,0 +1,59 @@
+/* Style général des cartes */
+.navbar .btn {
+    background: none;
+    border: none;
+    color: #333;
+  }
+  
+  .navbar .btn:hover {
+    color: #007bff;
+  }
+  
+  .badge {
+    font-size: 0.65rem;
+  }
+  
+.card-menu {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .card {
+    transition: transform 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  /* Gestion des tailles de carte pour différents écrans */
+  @media (max-width: 767.98px) {
+    /* Mobile */
+    .card-menu {
+      flex: 0 0 100%;
+      max-width: 100%;
+      padding-left: 1rem;
+      padding-right: 1rem;
+    }
+  
+    .card {
+      width: 100%;
+    }
+  }
+  
+  @media (min-width: 768px) and (max-width: 991.98px) {
+    /* Tablette */
+    .card-menu {
+      flex: 0 0 50%;
+      max-width: 50%;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    /* Bureau */
+    .card-menu {
+      flex: 0 0 25%;
+      max-width: 25%;
+    }
+  }
+  

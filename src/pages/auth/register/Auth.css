@@ -1,0 +1,76 @@
+/* Auth.css */
+
+/* Général */
+body {
+  background-color: #f8f9fa;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Centrage vertical */
+.auth-wrapper,
+.auth-form-wrapper {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Formulaire */
+.card,
+.auth-form {
+  width: 100%;
+  max-width: 420px;
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Champs */
+.input-group-text {
+  background-color: #e9ecef;
+}
+
+input.form-control {
+  border-radius: 0 5px 5px 0;
+}
+
+input::placeholder {
+  color: #adb5bd;
+}
+
+/* Boutons */
+button.btn-primary {
+  font-weight: 500;
+}
+
+/* Texte d'aide */
+.auth-footer-text {
+  margin-top: 1rem;
+  text-align: center;
+  font-size: 0.95rem;
+}
+
+/* Responsive : mobile et tablette */
+@media (max-width: 768px) {
+  .card,
+  .auth-form {
+    padding: 1.5rem;
+    max-width: 100%;
+    margin: 0 1rem;
+  }
+
+  .form-control {
+    font-size: 1rem;
+  }
+
+  .input-group {
+    flex-direction: row;
+    width: 100%;
+  }
+
+  .input-group .input-group-text {
+    width: 45px;
+    justify-content: center;
+  }
+}

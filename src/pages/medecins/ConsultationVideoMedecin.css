@@ -1,0 +1,49 @@
+.consultation-video-medecin {
+    max-width: 800px;
+    margin: auto;
+    background-color: #f8f9fa;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
+  }
+  
+  .video-section {
+    margin-top: 2rem;
+  }
+  
+  .start-button {
+    font-size: 1.2rem;
+    padding: 0.75rem 1.5rem;
+  }
+  
+  .video-call-box {
+    padding: 2rem;
+    background-color: #e9ecef;
+    border-radius: 10px;
+    font-size: 1.1rem;
+  }
+  
+  /* Responsive pour tablettes */
+  @media (max-width: 768px) {
+    .consultation-video-medecin {
+      padding: 1.5rem;
+    }
+  
+    .start-button {
+      font-size: 1rem;
+      width: 100%;
+    }
+  }
+  
+  /* Responsive pour téléphones */
+  @media (max-width: 480px) {
+    .consultation-video-medecin {
+      padding: 1rem;
+    }
+  
+    .start-button {
+      padding: 0.75rem;
+      font-size: 1rem;
+    }
+  }
+  

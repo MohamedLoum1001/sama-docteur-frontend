@@ -1,0 +1,76 @@
+.ticket-payment-container {
+    max-width: 700px;
+    margin: auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  }
+  
+  .ticket-payment-container h2 {
+    font-weight: bold;
+    color: #2c3e50;
+  }
+  
+  .ticket-form label {
+    font-weight: 500;
+    color: #34495e;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .ticket-form input,
+  .ticket-form select {
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    padding: 10px 12px;
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    font-size: 1rem;
+  }
+  
+  .ticket-form button {
+    border-radius: 8px;
+    padding: 12px;
+    font-weight: 600;
+    font-size: 1rem;
+  }
+  
+  /* Tablette */
+  @media (max-width: 768px) {
+    .ticket-payment-container {
+      padding: 20px;
+    }
+  
+    .ticket-form input,
+    .ticket-form select {
+      font-size: 0.95rem;
+    }
+  
+    .ticket-form button {
+      font-size: 0.95rem;
+    }
+  }
+  
+  /* Téléphone */
+  @media (max-width: 480px) {
+    .ticket-payment-container {
+      padding: 15px;
+    }
+  
+    .ticket-payment-container h2 {
+      font-size: 1.4rem;
+    }
+  
+    .ticket-form input,
+    .ticket-form select {
+      font-size: 0.9rem;
+    }
+  
+    .ticket-form button {
+      font-size: 0.9rem;
+      padding: 10px;
+    }
+  }
+  

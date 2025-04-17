@@ -1,0 +1,59 @@
+/* Fixer la navbar en haut de la page */
+.navbar.fixed-top {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1030; /* Assure-toi que la navbar reste au-dessus du contenu */
+}
+
+/* Ajouter un espace sous la navbar fixe pour éviter que le contenu ne soit masqué */
+body {
+  padding-top: 59px; /* Ajuste cette valeur en fonction de la hauteur de ta navbar */
+}
+
+/* Si le contenu est trop proche de la navbar, on peut augmenter ce padding-top */
+.container-fluid.mt-5.pt-4 {
+  padding-top: 80px; /* Ajuste cette valeur si nécessaire */
+}
+
+.home-card {
+    padding: 20px;
+    border: 1px solid #dee2e6;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    background-color: #f8f9fa;
+    text-decoration: none;
+    color: #000;
+  }
+  
+  .home-card:hover {
+    background-color: #e2e6ea;
+    transform: scale(1.02);
+  }
+  
+  .home-card p {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  @media (max-width: 768px) {
+    .home-card {
+      padding: 15px;
+    }
+  
+    .home-card p {
+      font-size: 14px;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .home-card {
+      padding: 12px;
+    }
+  
+    .home-card p {
+      font-size: 13px;
+    }
+  }
+  

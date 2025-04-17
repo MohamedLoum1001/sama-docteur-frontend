@@ -1,0 +1,59 @@
+.video-container {
+    max-width: 700px;
+    margin: auto;
+  }
+  
+  .consult-box {
+    background-color: #fefefe;
+    border-radius: 12px;
+  }
+  
+  .consult-form label {
+    font-weight: 500;
+    margin-bottom: 5px;
+    display: block;
+  }
+  
+  .consult-form input,
+  .consult-form select {
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+  }
+  
+  .consult-form button {
+    padding: 12px;
+    font-weight: bold;
+  }
+  
+  /* Responsive tablette */
+  @media (max-width: 768px) {
+    .consult-box {
+      padding: 20px;
+    }
+  
+    .consult-form input,
+    .consult-form select,
+    .consult-form button {
+      font-size: 0.95rem;
+    }
+  }
+  
+  /* Responsive téléphone */
+  @media (max-width: 480px) {
+    .video-container {
+      padding: 10px;
+    }
+  
+    .consult-box {
+      padding: 15px;
+    }
+  
+    .consult-form input,
+    .consult-form select,
+    .consult-form button {
+      font-size: 0.9rem;
+    }
+  }
+  
