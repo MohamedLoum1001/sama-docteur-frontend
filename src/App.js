@@ -31,22 +31,22 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Login />} />
         <Route path="/register" element={<Register />} /> 
-        <Route path="/home-patient" element={<HomePatient />} />
+        {/* <Route path="/home-patient" element={<HomePatient />} />
         <Route path="/profil" element={<Profile />} />
         <Route path="/rendez-vous" element={<Appointment />} />
         <Route path="/notifications" element={<Notifications />} />
         <Route path="/paiement" element={<TicketPayment />} />
         <Route path="/consultation" element={<VideoConsultation />} />
         <Route path="/dossier" element={<DossierMedical />} />
-        <Route path="/ordonnances" element={<Ordonnances />} />
+        <Route path="/ordonnances" element={<Ordonnances />} /> */}
 
         {/* Routes pour le médecin*/}
-        {/* <Route path="/medecin/home" element={<HomeMedecin />} />
+        <Route path="/medecin/home" element={<HomeMedecin />} />
         <Route path="/medecin/profile" element={<ProfileMedecin />} />
         <Route path="/medecin/disponibilites" element={<DisponibilitesMedecin />} />
         <Route path="/medecin/rendezvous" element={<RendezVousMedecin />} />
         <Route path="/medecin/consultation" element={<ConsultationVideoMedecin />} />
-        <Route path="/medecin/ordonnances" element={<OrdonnancesMedecin />} />  */}
+        <Route path="/medecin/ordonnances" element={<OrdonnancesMedecin />} /> 
       </Routes>
     </Router>
   );

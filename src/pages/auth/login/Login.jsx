@@ -10,8 +10,8 @@ const Login = () => {
   const handleLogin = (e) => {
     e.preventDefault();
     // Simule une authentification réussie
-    navigate("/home-patient");
-    // navigate("/medecin/home");
+    // navigate("/home-patient");
+    navigate("/medecin/home");
 
   };
 
